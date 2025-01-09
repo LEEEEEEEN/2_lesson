@@ -9,7 +9,7 @@ class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('Кружочки')
-        self.setGeometry(100, 100, 640, 480)
+        self.setGeometry(100, 100, 1920, 1080)
         self.button = QtWidgets.QPushButton('Нарисовать кружочек', self)
         self.button.setGeometry(10, 10, 100, 30)
         self.button.clicked.connect(self.add_circle)
